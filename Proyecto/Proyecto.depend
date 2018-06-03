@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1528065891 source:c:\users\fabri\documents\universidad\ccomp\proyecto\main.cpp
+	<iostream>
+	<matriz.h>
+
+1528065891 source:c:\users\fabri\documents\universidad\ccomp\proyecto\src\matriz.cpp
+	"matriz.h"
+
+1528065999 c:\users\fabri\documents\universidad\ccomp\proyecto\include\matriz.h
+	<iostream>
+
