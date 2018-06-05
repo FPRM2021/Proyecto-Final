@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1514140574 source:d:\proyectofinal\proyecto final\main.cpp
+	<iostream>
+
+1528126558 source:d:\proyectofinal\proyecto final\src\bomba.cpp
+	"Bomba.h"
+
+1528126558 d:\proyectofinal\proyecto final\include\bomba.h
+
+1528125623 source:d:\proyectofinal\proyecto final\src\posicion.cpp
+	"Posicion.h"
+
+1528127954 d:\proyectofinal\proyecto final\include\posicion.h
+
+1528131196 source:d:\proyectofinal\proyecto final\src\individuo.cpp
+	"Individuo.h"
+	<conio.h>
+
+1528131196 d:\proyectofinal\proyecto final\include\individuo.h
+	"Posicion.h"
+	<string>
+	<iostream>
+
+1528131649 source:d:\proyectofinal\proyecto final\src\nivel.cpp
+	"Nivel.h"
+
+1528131595 d:\proyectofinal\proyecto final\include\nivel.h
+	"Individuo.h"
+	<conio.h>
+
