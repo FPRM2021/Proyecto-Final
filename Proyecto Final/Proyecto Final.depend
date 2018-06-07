@@ -1,94 +1,44 @@
 # depslib dependency file v1.0
-1514140574 source:d:\proyectofinal\proyecto final\main.cpp
-	<iostream>
-
-1528126558 source:d:\proyectofinal\proyecto final\src\bomba.cpp
+1528334212 source:c:\users\a\downloads\proyecto-final-master\proyecto final\src\bomba.cpp
 	"Bomba.h"
 
-1528126558 d:\proyectofinal\proyecto final\include\bomba.h
+1528334212 c:\users\a\downloads\proyecto-final-master\proyecto final\include\bomba.h
 
-1528125623 source:d:\proyectofinal\proyecto final\src\posicion.cpp
-	"Posicion.h"
-
-1528127954 d:\proyectofinal\proyecto final\include\posicion.h
-
-1528131196 source:d:\proyectofinal\proyecto final\src\individuo.cpp
+1528343153 source:c:\users\a\downloads\proyecto-final-master\proyecto final\src\individuo.cpp
 	"Individuo.h"
 	<conio.h>
 
-1528131196 d:\proyectofinal\proyecto final\include\individuo.h
+1528344274 c:\users\a\downloads\proyecto-final-master\proyecto final\include\individuo.h
 	"Posicion.h"
 	<string>
 	<iostream>
 
-1528131649 source:d:\proyectofinal\proyecto final\src\nivel.cpp
-	"Nivel.h"
+1528334212 c:\users\a\downloads\proyecto-final-master\proyecto final\include\posicion.h
 
-1528131595 d:\proyectofinal\proyecto final\include\nivel.h
-	"Individuo.h"
-	<conio.h>
-
-1528168438 source:c:\users\fabri\downloads\proyecto final\main.cpp
+1528343014 source:c:\users\a\downloads\proyecto-final-master\proyecto final\main.cpp
 	<iostream>
 	"Nivel.h"
 
-1528168584 c:\users\fabri\downloads\proyecto final\include\nivel.h
-	"Individuo.h"
+1528346073 c:\users\a\downloads\proyecto-final-master\proyecto final\include\nivel.h
+	"Jugador.h"
 	<conio.h>
 	<stdlib.h>
 
-1528166586 c:\users\fabri\downloads\proyecto final\include\individuo.h
-	"Posicion.h"
-	<string>
-	<iostream>
-
-1528166586 c:\users\fabri\downloads\proyecto final\include\posicion.h
-
-1528166587 source:c:\users\fabri\downloads\proyecto final\src\bomba.cpp
-	"Bomba.h"
-
-1528166586 c:\users\fabri\downloads\proyecto final\include\bomba.h
-
-1528168392 source:c:\users\fabri\downloads\proyecto final\src\nivel.cpp
-	"Nivel.h"
-
-1528166587 source:c:\users\fabri\downloads\proyecto final\src\posicion.cpp
-	"Posicion.h"
-
-1528167005 source:c:\users\fabri\downloads\proyecto final\src\individuo.cpp
-	"Individuo.h"
-	<conio.h>
-
-1528166587 source:c:\users\fabri\documents\universidad\ccomp\proyecto final\src\bomba.cpp
-	"Bomba.h"
-
-1528166586 c:\users\fabri\documents\universidad\ccomp\proyecto final\include\bomba.h
-
-1528296400 source:c:\users\fabri\documents\universidad\ccomp\proyecto final\src\individuo.cpp
-	"Individuo.h"
-	<conio.h>
-
-1528296754 c:\users\fabri\documents\universidad\ccomp\proyecto final\include\individuo.h
-	"Posicion.h"
-	<string>
-	<iostream>
-
-1528166586 c:\users\fabri\documents\universidad\ccomp\proyecto final\include\posicion.h
-
-1528295234 source:c:\users\fabri\documents\universidad\ccomp\proyecto final\src\nivel.cpp
+1528351596 source:c:\users\a\downloads\proyecto-final-master\proyecto final\src\nivel.cpp
 	"Nivel.h"
 	<windows.h>
 	<conio.h>
 
-1528168584 c:\users\fabri\documents\universidad\ccomp\proyecto final\include\nivel.h
-	"Individuo.h"
-	<conio.h>
-	<stdlib.h>
-
-1528166587 source:c:\users\fabri\documents\universidad\ccomp\proyecto final\src\posicion.cpp
+1528334212 source:c:\users\a\downloads\proyecto-final-master\proyecto final\src\posicion.cpp
 	"Posicion.h"
 
-1528211370 source:c:\users\fabri\documents\universidad\ccomp\proyecto final\main.cpp
-	<iostream>
-	"Nivel.h"
+1528351588 c:\users\a\downloads\proyecto-final-master\proyecto final\include\jugador.h
+	"Individuo.h"
+	"Bomba.h"
+
+1528351588 source:c:\users\a\downloads\proyecto-final-master\proyecto final\src\jugador.cpp
+	"Jugador.h"
+	<conio.h>
+	<stdlib.h>
+	<windows.h>
 

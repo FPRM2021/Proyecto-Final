@@ -1,5 +1,4 @@
-#ifndef INDIVIDUO_H
-#define INDIVIDUO_H
+
 #include "Posicion.h"
 #include <string>
 #include<iostream>
@@ -17,18 +16,11 @@ class Individuo{
     public:
         Individuo();
         Individuo(int,Posicion,string);
-
+        virtual void movimiento(char,int[][17])=0;
         int get_vida(){return vida;}
         Posicion get_pos(){return pos;}
-    private:
-        virtual void movimiento()=0;
 
 };
 
-class Jugador:public Individuo{
-    public:
-        Jugador(int,Posicion,string);
-        void movimiento(char,int[][17]);
-};
 
-#endif // INDIVIDUO_H
+
