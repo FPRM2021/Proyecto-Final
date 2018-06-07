@@ -4,9 +4,9 @@
 using namespace std;
 
 int main(){
-    Posicion pos(5,5);
-    Individuo yo(1,pos,"Player");
-    Nivel uno;
-    uno.imprimir(yo);
+    //Posicion pos(1,1);
+    Jugador yo(1,pos,"Player");
+    //Nivel uno;
+    //uno.imprimir(yo);
     return 0;
 }

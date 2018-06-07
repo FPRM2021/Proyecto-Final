@@ -64,18 +64,18 @@
 
 1528166586 c:\users\fabri\documents\universidad\ccomp\proyecto final\include\bomba.h
 
-1528211771 source:c:\users\fabri\documents\universidad\ccomp\proyecto final\src\individuo.cpp
+1528296400 source:c:\users\fabri\documents\universidad\ccomp\proyecto final\src\individuo.cpp
 	"Individuo.h"
 	<conio.h>
 
-1528166586 c:\users\fabri\documents\universidad\ccomp\proyecto final\include\individuo.h
+1528296754 c:\users\fabri\documents\universidad\ccomp\proyecto final\include\individuo.h
 	"Posicion.h"
 	<string>
 	<iostream>
 
 1528166586 c:\users\fabri\documents\universidad\ccomp\proyecto final\include\posicion.h
 
-1528214128 source:c:\users\fabri\documents\universidad\ccomp\proyecto final\src\nivel.cpp
+1528295234 source:c:\users\fabri\documents\universidad\ccomp\proyecto final\src\nivel.cpp
 	"Nivel.h"
 	<windows.h>
 	<conio.h>

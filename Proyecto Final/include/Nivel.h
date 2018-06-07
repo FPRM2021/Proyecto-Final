@@ -8,7 +8,7 @@
 class Nivel{
     public:
         Nivel();
-        void imprimir(Individuo);
+        void imprimir(Jugador);
         //void fin(Individuo);
 };
 

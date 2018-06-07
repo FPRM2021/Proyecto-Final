@@ -10,16 +10,25 @@ using namespace std;
 #define ABAJO 80
 
 class Individuo{
+    protected:
         int vida;
         Posicion pos;
         string nombre;
     public:
         Individuo();
         Individuo(int,Posicion,string);
-        void movimiento(char);
+
         int get_vida(){return vida;}
         Posicion get_pos(){return pos;}
-        //void impacto();
+    private:
+        virtual void movimiento()=0;
+
+};
+
+class Jugador:public Individuo{
+    public:
+        Jugador(int,Posicion,string);
+        void movimiento(char,int[][17]);
 };
 
 #endif // INDIVIDUO_H
