@@ -1,12 +1,8 @@
 
-#include "Posicion.h"
 #include <string>
 #include<iostream>
 using namespace std;
-#define ARRIBA 72
-#define IZQUIERDA 75
-#define DERECHA 77
-#define ABAJO 80
+#include "Funciones.h"
 
 class Individuo{
     protected:

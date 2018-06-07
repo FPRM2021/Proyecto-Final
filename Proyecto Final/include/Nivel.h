@@ -11,7 +11,6 @@ class Nivel{
     public:
         Nivel();
         void imprimir(Jugador);
-        //void fin(Individuo);
 };
 
 #endif // NIVEL_H

@@ -35,12 +35,16 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Bomba.h" />
+		<Unit filename="include/Funciones.h" />
 		<Unit filename="include/Individuo.h" />
+		<Unit filename="include/Jugador.h" />
 		<Unit filename="include/Nivel.h" />
 		<Unit filename="include/Posicion.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Bomba.cpp" />
+		<Unit filename="src/Funciones.cpp" />
 		<Unit filename="src/Individuo.cpp" />
+		<Unit filename="src/Jugador.cpp" />
 		<Unit filename="src/Nivel.cpp" />
 		<Unit filename="src/Posicion.cpp" />
 		<Extensions>

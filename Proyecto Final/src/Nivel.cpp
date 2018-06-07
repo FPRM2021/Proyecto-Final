@@ -3,16 +3,34 @@
 #include <conio.h>
 using namespace std;
 Nivel::Nivel(){
-    cout<<"matriz creada"<<endl;
 }
 void Nivel::dibujar(int escenario[][17]){
     for(int i=0;i<15;i++){
             for(int j=0;j<17;j++){
-                cout<<escenario[i][j]<<" ";
+                if(escenario[i][j]==0){
+                    cout<<" ";
+                    continue;
+                }
+                if(escenario[i][j]==3){
+                    cout<<(char)178;
+                    continue;
+                }
+                if(escenario[i][j]==1){
+                    cout<<(char)254;
+                    continue;
+                }
+                cout<<escenario[i][j];
             }
             cout<<endl;
         }
-}
+}/*
+void Nivel::dibujar(int escenario[][17]){
+    for(int i=0;i<15;i++){
+            for(int j=0;j<17;j++){
+                cout<<escenario[i][j]<<" ";}
+            cout<<endl;
+        }
+}*/
 void Nivel::imprimir(Jugador jugador){
 
     //para borrar el cursor
@@ -27,15 +45,15 @@ void Nivel::imprimir(Jugador jugador){
         {3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3},
         {3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3},
         {3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3},
+        {3,0,0,0,3,3,0,0,0,3,3,0,0,0,0,0,3},
+        {3,0,0,0,3,3,0,0,0,3,3,0,0,0,0,0,3},
+        {3,0,0,0,3,3,0,0,0,3,3,0,0,0,0,0,3},
+        {3,0,0,0,0,0,0,0,0,3,3,3,3,3,3,3,3},
+        {3,0,0,0,0,0,0,0,0,3,3,3,3,3,3,3,3},
         {3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,3},
         {3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,3},
-        {3,0,0,0,3,3,3,3,0,0,0,0,0,0,0,0,3},
-        {3,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,3},
-        {3,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,3},
-        {3,0,0,0,0,0,0,3,3,3,0,0,0,0,0,0,3},
-        {3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3},
-        {3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3},
-        {3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3},
+        {3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,3},
+        {3,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0,3},
         {3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3},
         {3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3},
         {3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3},
@@ -48,23 +66,30 @@ void Nivel::imprimir(Jugador jugador){
 
         int tmp_x = jugador.get_pos().get_x();
         int tmp_y = jugador.get_pos().get_y();
-
+        Posicion pos(tmp_x,tmp_y);
         dibujar(escenario);
-
+        system("cls");
         if(kbhit()){
             char pulsar = getch();
+            if(jugador.soltarBomba(pulsar)){
+                escenario[jugador.get_pos().get_y()][jugador.get_pos().get_x()]=4;
+            }
             jugador.movimiento(pulsar,escenario);
         }
 
-
         if(jugador.get_pos().get_x()!=tmp_x || jugador.get_pos().get_y()!=tmp_y){
-                escenario[tmp_y][tmp_x]=0;
+            if(escenario[tmp_y][tmp_x]==4){
+                dibujar(escenario);
+                system("cls");
+                jugador.get_Bomba().explotar(escenario,pos);
+                continue;
+            }
+            escenario[tmp_y][tmp_x]=0;
         }
-        system("cls");
 
         dibujar(escenario);
 
-        Sleep(100);
+        Sleep(140);
         system("cls");
 
     }
