@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1528334212 source:c:\users\a\downloads\proyecto-final-master\proyecto final\src\bomba.cpp
+	"Bomba.h"
+
+1528334212 c:\users\a\downloads\proyecto-final-master\proyecto final\include\bomba.h
+
+1528343153 source:c:\users\a\downloads\proyecto-final-master\proyecto final\src\individuo.cpp
+	"Individuo.h"
+	<conio.h>
+
+1528344274 c:\users\a\downloads\proyecto-final-master\proyecto final\include\individuo.h
+	"Posicion.h"
+	<string>
+	<iostream>
+
+1528334212 c:\users\a\downloads\proyecto-final-master\proyecto final\include\posicion.h
+
+1528343014 source:c:\users\a\downloads\proyecto-final-master\proyecto final\main.cpp
+	<iostream>
+	"Nivel.h"
+
+1528346073 c:\users\a\downloads\proyecto-final-master\proyecto final\include\nivel.h
+	"Jugador.h"
+	<conio.h>
+	<stdlib.h>
+
+1528351596 source:c:\users\a\downloads\proyecto-final-master\proyecto final\src\nivel.cpp
+	"Nivel.h"
+	<windows.h>
+	<conio.h>
+
+1528334212 source:c:\users\a\downloads\proyecto-final-master\proyecto final\src\posicion.cpp
+	"Posicion.h"
+
+1528351588 c:\users\a\downloads\proyecto-final-master\proyecto final\include\jugador.h
+	"Individuo.h"
+	"Bomba.h"
+
+1528351588 source:c:\users\a\downloads\proyecto-final-master\proyecto final\src\jugador.cpp
+	"Jugador.h"
+	<conio.h>
+	<stdlib.h>
+	<windows.h>
+
+1528343014 source:c:\users\a\downloads\proyecto-final-master\ultimo avance\proyecto final\main.cpp
+	<iostream>
+	"Nivel.h"
+
+1528381535 c:\users\a\downloads\proyecto-final-master\ultimo avance\proyecto final\include\nivel.h
+	"Jugador.h"
+	<conio.h>
+	<stdlib.h>
+
+1528380990 c:\users\a\downloads\proyecto-final-master\ultimo avance\proyecto final\include\jugador.h
+	"Individuo.h"
+	"Bomba.h"
+
+1528381777 c:\users\a\downloads\proyecto-final-master\ultimo avance\proyecto final\include\individuo.h
+	"Posicion.h"
+	<string>
+	<iostream>
+
+1528334212 c:\users\a\downloads\proyecto-final-master\ultimo avance\proyecto final\include\posicion.h
+
+1528382722 c:\users\a\downloads\proyecto-final-master\ultimo avance\proyecto final\include\bomba.h
+	"Posicion.h"
+
+1528382982 source:c:\users\a\downloads\proyecto-final-master\ultimo avance\proyecto final\src\bomba.cpp
+	"Bomba.h"
+	<windows.h>
+
+1528381981 source:c:\users\a\downloads\proyecto-final-master\ultimo avance\proyecto final\src\individuo.cpp
+	"Individuo.h"
+	<conio.h>
+
+1528381913 source:c:\users\a\downloads\proyecto-final-master\ultimo avance\proyecto final\src\jugador.cpp
+	"Jugador.h"
+	<conio.h>
+	<stdlib.h>
+	<windows.h>
+
+1528383998 source:c:\users\a\downloads\proyecto-final-master\ultimo avance\proyecto final\src\nivel.cpp
+	"Nivel.h"
+	<windows.h>
+	<conio.h>
+
+1528334212 source:c:\users\a\downloads\proyecto-final-master\ultimo avance\proyecto final\src\posicion.cpp
+	"Posicion.h"
+
