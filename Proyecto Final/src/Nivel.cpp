@@ -2,35 +2,10 @@
 #include <windows.h>
 #include <conio.h>
 using namespace std;
+
 Nivel::Nivel(){
 }
-void Nivel::dibujar(int escenario[][17]){
-    for(int i=0;i<15;i++){
-            for(int j=0;j<17;j++){
-                if(escenario[i][j]==0){
-                    cout<<" ";
-                    continue;
-                }
-                if(escenario[i][j]==3){
-                    cout<<(char)178;
-                    continue;
-                }
-                if(escenario[i][j]==1){
-                    cout<<(char)254;
-                    continue;
-                }
-                cout<<escenario[i][j];
-            }
-            cout<<endl;
-        }
-}/*
-void Nivel::dibujar(int escenario[][17]){
-    for(int i=0;i<15;i++){
-            for(int j=0;j<17;j++){
-                cout<<escenario[i][j]<<" ";}
-            cout<<endl;
-        }
-}*/
+
 void Nivel::imprimir(Jugador jugador){
 
     //para borrar el cursor
@@ -93,4 +68,12 @@ void Nivel::imprimir(Jugador jugador){
         system("cls");
 
     }
+}
+
+void Nivel::dibujar(int escenario[][17]){
+    for(int i=0;i<15;i++){
+            for(int j=0;j<17;j++){
+                cout<<escenario[i][j]<<" ";}
+            cout<<endl;
+        }
 }

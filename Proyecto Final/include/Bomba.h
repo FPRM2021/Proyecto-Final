@@ -5,7 +5,6 @@
 #define IZQUIERDA 75
 #define DERECHA 77
 #define ABAJO 80
-bool validacion(int[][17],Posicion,char);
 class Bomba{
         int radio;
     public:
