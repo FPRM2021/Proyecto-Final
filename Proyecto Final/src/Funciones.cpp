@@ -1,12 +1,6 @@
 
 #include "Funciones.h"
-void gotoxy(int x,int y){
-    HANDLE hcon =  GetStdHandle(STD_OUTPUT_HANDLE);
-    COORD dwPos;
-    dwPos.X = x;
-    dwPos.Y = y;
-    SetConsoleCursorPosition(hcon,dwPos);
-}
+
 bool validacion(int escenario[][17],Posicion pos,char tecla){
         if(tecla == IZQUIERDA)
                 if(escenario[pos.get_y()][pos.get_x()-1]==3 || escenario[pos.get_y()][pos.get_x()-1]==2 || escenario[pos.get_y()][pos.get_x()-1]==4){return false;}
@@ -21,3 +15,12 @@ bool validacion(int escenario[][17],Posicion pos,char tecla){
 
         return true;
 }
+void gotoxy ( int x, int y ) {
+    HANDLE hcon;
+    hcon = GetStdHandle(STD_OUTPUT_HANDLE);
+    COORD dwPos;
+    dwPos.X = x;
+    dwPos.Y = y;
+    SetConsoleCursorPosition (hcon,dwPos);
+}
+

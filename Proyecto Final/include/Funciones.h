@@ -7,6 +7,7 @@
 #define IZQUIERDA 75
 #define DERECHA 77
 #define ABAJO 80
+#define ESCAPE 27
 
 void gotoxy(int,int);
 bool validacion(int[][17],Posicion,char);

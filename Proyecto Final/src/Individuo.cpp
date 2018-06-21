@@ -7,8 +7,9 @@ Individuo::Individuo(){
     pos.set_x(1);
     nombre = "Jugador 1";
 }
-Individuo::Individuo(int vida ,Posicion pos ,string nombre){
+Individuo::Individuo(int vida ,Posicion pos ,string nombre, char simbolo){
     this->vida = vida;
     this->pos = pos;
     this->nombre = nombre;
+    this->simbolo = simbolo;
 }

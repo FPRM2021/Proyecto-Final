@@ -1,54 +1,54 @@
 # depslib dependency file v1.0
-1529557599 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\main.cpp
+1529589129 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\main.cpp
 	<iostream>
 	"Nivel.h"
 
-1529546616 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\nivel.h
+1529589151 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\nivel.h
 	"Jugador.h"
 	<conio.h>
 	<stdlib.h>
 
-1529546616 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\jugador.h
+1529590714 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\jugador.h
 	"Individuo.h"
 	"Bomba.h"
 
-1529546616 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\individuo.h
+1529590733 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\individuo.h
 	<string>
 	<iostream>
 	"Funciones.h"
 
-1529559075 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\funciones.h
+1529585479 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\funciones.h
 	"Posicion.h"
 	<conio.h>
 	<windows.h>
 
-1529546616 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\posicion.h
+1529567750 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\posicion.h
 
 1529557528 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\bomba.h
 	"Funciones.h"
 
-1529558524 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\bomba.cpp
+1529562746 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\bomba.cpp
 	"Bomba.h"
 	<windows.h>
 
-1529559075 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\funciones.cpp
+1529589080 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\funciones.cpp
 	"Funciones.h"
 
-1529546616 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\individuo.cpp
+1529586832 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\individuo.cpp
 	"Individuo.h"
 	<conio.h>
 
-1529546616 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\jugador.cpp
+1529590693 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\jugador.cpp
 	"Jugador.h"
 	<conio.h>
 	<stdlib.h>
 	<windows.h>
 
-1529556875 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\nivel.cpp
+1529590638 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\nivel.cpp
 	"Nivel.h"
 	<windows.h>
 	<conio.h>
 
-1529546616 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\posicion.cpp
+1529567765 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\posicion.cpp
 	"Posicion.h"
 
