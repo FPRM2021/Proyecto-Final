@@ -4,8 +4,8 @@
 using namespace std;
 #include <windows.h>
 
-Jugador::Jugador(int vida ,Posicion pos ,string nombre,char simbolo):Individuo(vida,pos,nombre,simbolo){
-}
+Jugador::Jugador(int vida ,Posicion pos ,string nombre,char simbolo):Individuo(vida,pos,nombre,simbolo){}
+
 void Jugador::movimiento(char tecla, int escenario[][17],Posicion &coord){
 
         if(tecla == IZQUIERDA){

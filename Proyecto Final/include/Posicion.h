@@ -17,6 +17,4 @@ class Posicion{
         void set_y(int y){this->y=y;}
 };
 
-
-
 #endif // POSICION_H
