@@ -73,6 +73,7 @@ void Jugador::movimiento(char tecla, int escenario[][17],Posicion &coord){
 
 bool Jugador::soltarBomba(char tecla){
     if(tecla=='w'){
+
         return true;
     }
     return false;

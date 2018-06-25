@@ -47,7 +47,7 @@ void Nivel(bool jugadores){
 
     int x=1,y=1;
 
-    Posicion coord(y,x);
+    Posicion coord(x,y);
     Jugador uno(1,coord,"Jugador1",'O');
     Bomba bomb;
     gotoxy(x,y);
@@ -58,6 +58,7 @@ void Nivel(bool jugadores){
             pulsar = getch();
             uno.movimiento(pulsar,escenario,coord);
             bomb.explotar(pulsar,escenario,coord);
+            finalizar(pulsar);
         }
         continue;
 

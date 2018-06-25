@@ -24,3 +24,8 @@ void gotoxy ( int x, int y ) {
     SetConsoleCursorPosition (hcon,dwPos);
 }
 
+int finalizar(char tecla){
+    if(tecla==ESCAPE){
+           return EXIT_SUCCESS;
+    }
+}

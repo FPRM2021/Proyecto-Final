@@ -9,8 +9,7 @@
 class Posicion{
         int x,y;
     public:
-
-        Posicion(int x=0,int y=0){this->x=x; this->y=y;}
+        Posicion(int x=1,int y=1){this->x=x; this->y=y;}
         int get_x(){return x;}
         int get_y(){return y;}
         void set_x(int x){this->x=x;}
