@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1529978991 source:c:\users\fabri\desktop\trabajo opcional\main.cpp
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	"Nave.h"
+	"Asteroide.h"
+	"Proyectil.h"
+
+1529970240 source:c:\users\fabri\desktop\trabajo opcional\src\funciones.cpp
+	"Funciones.h"
+
+1529975065 c:\users\fabri\desktop\trabajo opcional\include\funciones.h
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	<stdlib.h>
+	<list>
+
+1529973639 source:c:\users\fabri\desktop\trabajo opcional\src\nave.cpp
+	"Nave.h"
+
+1529984601 c:\users\fabri\desktop\trabajo opcional\include\nave.h
+	"Funciones.h"
+
+1529982268 c:\users\fabri\desktop\trabajo opcional\include\asteroide.h
+	"Funciones.h"
+	"Nave.h"
+
+1529982268 source:c:\users\fabri\desktop\trabajo opcional\src\asteroide.cpp
+	"Asteroide.h"
+
+1529977951 source:c:\users\fabri\desktop\trabajo opcional\src\proyectil.cpp
+	"Proyectil.h"
+
+1529977951 c:\users\fabri\desktop\trabajo opcional\include\proyectil.h
+	"Funciones.h"
+
