@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1530002558 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\main.cpp
+	<iostream>
+	"Nivel.h"
+
+1529589151 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\nivel.h
+	"Jugador.h"
+	<conio.h>
+	<stdlib.h>
+
+1530003782 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\jugador.h
+	"Individuo.h"
+	"Bomba.h"
+
+1529590733 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\individuo.h
+	<string>
+	<iostream>
+	"Funciones.h"
+
+1530002558 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\funciones.h
+	"Posicion.h"
+	<conio.h>
+	<windows.h>
+	<stdio.h>
+	<time.h>
+	<iostream>
+
+1529567750 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\posicion.h
+
+1530003263 c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\include\bomba.h
+	"Funciones.h"
+
+1530009550 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\bomba.cpp
+	<windows.h>
+	"Bomba.h"
+	<iostream>
+	<windows.h>
+
+1530001778 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\funciones.cpp
+	"Funciones.h"
+
+1529586832 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\individuo.cpp
+	"Individuo.h"
+	<conio.h>
+
+1530005280 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\jugador.cpp
+	"Jugador.h"
+	<conio.h>
+	<stdlib.h>
+	<windows.h>
+
+1530006300 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\nivel.cpp
+	"Nivel.h"
+	<windows.h>
+	<conio.h>
+	<time.h>
+
+1529567765 source:c:\users\dell\documents\programacion\proyectos\proyecto-final-master\proyecto final\src\posicion.cpp
+	"Posicion.h"
+
