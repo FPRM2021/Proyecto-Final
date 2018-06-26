@@ -1,17 +1,11 @@
 # depslib dependency file v1.0
-1529978991 source:c:\users\fabri\desktop\trabajo opcional\main.cpp
-	<iostream>
-	<stdio.h>
-	<windows.h>
-	<conio.h>
-	"Nave.h"
-	"Asteroide.h"
-	"Proyectil.h"
+1529989670 source:c:\users\fabri\desktop\trabajo opcional\main.cpp
+	"Juego.h"
 
-1529970240 source:c:\users\fabri\desktop\trabajo opcional\src\funciones.cpp
+1530046232 source:c:\users\fabri\desktop\trabajo opcional\src\funciones.cpp
 	"Funciones.h"
 
-1529975065 c:\users\fabri\desktop\trabajo opcional\include\funciones.h
+1530045948 c:\users\fabri\desktop\trabajo opcional\include\funciones.h
 	<iostream>
 	<stdio.h>
 	<windows.h>
@@ -19,7 +13,7 @@
 	<stdlib.h>
 	<list>
 
-1529973639 source:c:\users\fabri\desktop\trabajo opcional\src\nave.cpp
+1529984601 source:c:\users\fabri\desktop\trabajo opcional\src\nave.cpp
 	"Nave.h"
 
 1529984601 c:\users\fabri\desktop\trabajo opcional\include\nave.h
@@ -37,4 +31,15 @@
 
 1529977951 c:\users\fabri\desktop\trabajo opcional\include\proyectil.h
 	"Funciones.h"
+
+1530045645 c:\users\fabri\desktop\trabajo opcional\include\juego.h
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	"Nave.h"
+	"Asteroide.h"
+	"Proyectil.h"
+
+1530044329 source:c:\users\fabri\desktop\trabajo opcional\src\juego.cpp
 

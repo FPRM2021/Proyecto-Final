@@ -33,4 +33,53 @@ void pintarLimites(){
     gotoxy(77,3); printf("%c",187);
     gotoxy(77,33); printf("%c",188);
 }
+int interfaz(){
+    gotoxy(20,18);cout<<"ENTER PARA JUGAR";
+    gotoxy(20,20);cout<<"Presione escape para salir del Juego";
+    int val=0;
+    while (val==0){
+        if(kbhit()){
+            char tecla=getch();
+            if(tecla==ESCAPE){
+                limpiarInterfaz();
+                exit(0);
+            }
+            if(tecla==ENTER){
+                limpiarInterfaz();
+                gotoxy(20,18);cout<<"Ingrese el numero de nivel: ";
+                gotoxy(20,19);cout<<"1 Dificultad baja ";
+                gotoxy(20,20);cout<<"2 Dificultad media ";
+                gotoxy(20,21);cout<<"3 Dificultad alta ";
+                int n=0;
+                while(n==0 && n!=1 && n!=2 && n!=3){
+                    gotoxy(48,18);cout<<"       ";
+                    gotoxy(48,18);cin>>n;
+                    if(n==1){
+                        limpiarInterfaz();
+                        return 100;
+                    }
+                    if(n==2){
+                        limpiarInterfaz();
+                        return 50;
+                    }
+                    if(n==3){
+                        limpiarInterfaz();
+                        return 30;
+                    }
+                    else
+                        n=0;
 
+                }
+            }
+        }
+    }
+}
+
+void limpiarInterfaz(){
+    gotoxy(20,17);cout<<"                                                  ";
+    gotoxy(20,18);cout<<"                                                  ";
+    gotoxy(20,19);cout<<"                                                  ";
+    gotoxy(20,20);cout<<"                                                  ";
+    gotoxy(20,21);cout<<"                                                  ";
+    gotoxy(20,25);cout<<"                                                  ";
+}
